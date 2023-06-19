@@ -1,5 +1,4 @@
 def dfs(n, lst):
-    # 탈출 조건
     if n == M:
         ans.append(lst)
         return
