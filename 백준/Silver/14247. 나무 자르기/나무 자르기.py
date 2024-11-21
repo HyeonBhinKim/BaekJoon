@@ -8,7 +8,7 @@ growspeed = list(map(int, input().split()))
 
 ans = 0
 
-tns = [[growspeed[i], tree[i]] for i in range(n)]
+tns = [(growspeed[i], tree[i]) for i in range(n)]
 
 tns.sort(reverse=True)
 
